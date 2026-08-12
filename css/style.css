@@ -536,6 +536,8 @@ h4 {
   color: var(--ink);
   padding: 10px 14px;
   transition: color var(--transition);
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .main-nav a.nav-link::after {
@@ -576,6 +578,8 @@ h4 {
   width: 46px;
   height: 46px;
   padding: 10px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .nav-toggle span {
